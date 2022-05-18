@@ -1,4 +1,4 @@
-baseurl = "https://wenyaoliu.netlify.app"
+baseurl = "https://www.wenyaoliu.com/blog/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
