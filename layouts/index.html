@@ -1,8 +1,10 @@
-<head>
+{{ define "head" }}
   {{- if not .Site.IsServer }}
     {{ template "_internal/google_analytics_async.html" . }}
   {{- end }}
-  </head>
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+
 
 {{ define "main" }}
 <section class="section container-fluid mt-n3 pb-3">
