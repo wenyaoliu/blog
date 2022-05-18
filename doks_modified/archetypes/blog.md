@@ -7,5 +7,7 @@ lastmod: {{ .Date }}
 draft: true
 weight: 50
 images: ["{{ .Name | urlize }}.jpg"]
-contributors: []
+contributors: ["Wenyao Liu"]
+programlang: ["R", "Python"]
+cycleofdata: ["Processing", "Analysis", "Sharing"]
 ---

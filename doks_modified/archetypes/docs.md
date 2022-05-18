@@ -11,4 +11,7 @@ menu:
     parent: ""
 weight: 999
 toc: true
+contributors: ["Wenyao Liu"]
+programlang: ["R", "Python"]
+cycleofdata: ["Processing", "Analysis", "Sharing"]
 ---
