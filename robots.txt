@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wenyaoliu.netlify.app/sitemap.xml
+Sitemap: https://www.wenyaoliu.com/blog/sitemap.xml
