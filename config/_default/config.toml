@@ -90,7 +90,8 @@ rel  = "sitemap"
     source = "node_modules/@hyas/doks/data"
     target = "data"
   [[module.mounts]]
-    source = "node_modules/@hyas/doks/layouts"
+    # source = "node_modules/@hyas/doks/layouts"
+    source = "layouts/layouts"
     target = "layouts"
   [[module.mounts]]
     source = "node_modules/@hyas/doks/static"
