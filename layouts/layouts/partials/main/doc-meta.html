@@ -6,10 +6,11 @@
         {{ if gt $index 0 }}
             {{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }}
     <a class="stretched-link position-relative" href="{{"/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
-    &nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min read</strong> 
-        &nbsp;
+    &nbsp;&hyphen;&nbsp;
+    <!-- <strong>{{ .ReadingTime -}}&nbsp;min read</strong>  -->
+        <!-- &nbsp; -->
         {{ if .Params.programlang -}} {{ range $index, $programlang := .Params.programlang }}
-        {{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }}
+        {{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }} 
         <a class="stretched-link position-relative" href="{{"/programlang/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
        
         &nbsp;

@@ -60,14 +60,14 @@
   name = "R"
   weight = 40
   identifier = "R"
-  url = "/docs/prologue/quick-start/"
+  url = "/programlang/r/"
   parent = "Coding"
 
 [[main]]
   name = "Python"
   weight = 50
   identifier = "Python"
-  url = "https://getdoks.org/tutorial/introduction/"
+  url = "/programlang/python/"
   parent = "Coding"
 
 [[main]]

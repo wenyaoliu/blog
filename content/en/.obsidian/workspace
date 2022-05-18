@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "847ca885777cb2ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "37ced821b761381f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/help/how-to-update.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75353c785a07b173",
+    "type": "split",
+    "children": [
+      {
+        "id": "0418197bb99a4581",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00cb91238aea0347",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "86a26f09486c870d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a77dd274aa061ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "982cefe3374ff500",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc67493434a84986",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/help/how-to-update.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "37ced821b761381f",
+  "lastOpenFiles": [
+    "docs/help/how-to-update.md",
+    "docs/help/troubleshooting.md",
+    "docs/prologue/_index.md",
+    "docs/prologue/commands.md",
+    "docs/prologue/introduction.md",
+    "docs/prologue/quick-start.md",
+    "docs/help/_index.md",
+    "cycleofdata/processing/_index.md",
+    "contributors/wenyao-liu/_index.md"
+  ]
+}

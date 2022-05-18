@@ -39,8 +39,17 @@
 				{{ if .Site.Params.editPage -}}
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
+				<!-- {{ if .Params.contributors -}}
+					{{ partial "main/doc-meta.html" . }}
+				{{ end -}} -->
 			</div>
+
 			{{ partial "main/docs-navigation.html" . }}
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				{{ if .Params.contributors -}}
+					{{ partial "main/doc-meta.html" . }}
+				{{ end -}}
+			</div>
 			<!--
 			{{ if not .Site.Params.options.collapsibleSidebar -}}
 				{{ partial "main/docs-navigation.html" . }}

@@ -11,8 +11,6 @@ menu:
     parent: "help"
 weight: 620
 toc: true
-contributors: ["Wenyao Liu"]
-programlang: ["R"]
 ---
 
 ## Problems updating npm packages

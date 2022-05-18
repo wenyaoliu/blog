@@ -11,8 +11,6 @@ menu:
     parent: "help"
 weight: 610
 toc: true
-contributors: ["Wenyao Liu"]
-programlang: ["R"]
 ---
 
 {{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." />}}
