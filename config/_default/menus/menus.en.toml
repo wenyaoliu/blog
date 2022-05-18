@@ -45,6 +45,12 @@
 #   weight = 20
 
 [[main]]
+  name = "Docs"
+  url = "/docs/prologue/introduction/"
+# url = "/docs/1.0/prologue/introduction/"
+  weight = 10
+
+[[main]]
   name = "Coding"
   weight = 30
   identifier = "Coding"
@@ -65,32 +71,37 @@
   parent = "Coding"
 
 [[main]]
-  name = "Data Science"
+  name = "Data Cycle"
   weight = 60
-  identifier = "Data Science"
-  url = "/docs/prologue/introduction/"
+  identifier = "Cycle"
+  # url = "/docs/prologue/introduction/"
 
 [[main]]
   name = "Processing"
   weight = 70
   identifier = "Processing"
-  url = "/docs/prologue/quick-start/"
-  parent = "Data Science"
+  url = "/cycleofdata/processing/"
+  parent = "Cycle"
 
 [[main]]
   name = "Analysis"
   weight = 80
   identifier = "Analysis"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "Data Science"
+  url = "/"
+  parent = "Cycle"
 
 [[main]]
   name = "Sharing"
   weight = 90
   identifier = "Sharing"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "Data Science"
+  url = "/"
+  parent = "Cycle"
 
+[[main]]
+  name = "About"
+  weight = 100
+  identifier = "About"
+  url = "https://www.wenyaoliu.com"
 
 [[social]]
   name = "GitHub"
