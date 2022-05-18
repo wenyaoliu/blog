@@ -48,7 +48,7 @@
   name = "Coding"
   weight = 30
   identifier = "Coding"
-  url = "/docs/prologue/introduction/"
+  # url = "/docs/prologue/introduction/"
 
 [[main]]
   name = "R"

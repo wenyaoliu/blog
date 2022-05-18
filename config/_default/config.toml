@@ -1,5 +1,5 @@
 baseurl = "https://www.wenyaoliu.com/blog/"
-canonifyURLs = false
+canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
