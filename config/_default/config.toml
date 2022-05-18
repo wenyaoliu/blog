@@ -78,7 +78,7 @@ rel  = "sitemap"
     min = "0.80.0"
     max = ""
   [[module.mounts]]
-    source = "node_modules/@hyas/doks/archetypes"
+    source = "doks_modified/archetypes"
     target = "archetypes"
   [[module.mounts]]
     source = "node_modules/@hyas/doks/assets"
@@ -91,7 +91,7 @@ rel  = "sitemap"
     target = "data"
   [[module.mounts]]
     # source = "node_modules/@hyas/doks/layouts"
-    source = "layouts/layouts"
+    source = "doks_modified/layouts"
     target = "layouts"
   [[module.mounts]]
     source = "node_modules/@hyas/doks/static"
