@@ -87,14 +87,14 @@
   name = "Analysis"
   weight = 80
   identifier = "Analysis"
-  url = "/"
+  url = "/cycleofdata/analysis"
   parent = "Cycle"
 
 [[main]]
   name = "Sharing"
   weight = 90
   identifier = "Sharing"
-  url = "/"
+  url = "/cycleofdata/sharing"
   parent = "Cycle"
 
 [[main]]
