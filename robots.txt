@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wenyaoliu.netlify.app/sitemap.xml
