@@ -105,7 +105,9 @@
 #   url = "https://twitter.com/wenyaoL"
 #   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[footer]]
+  name = "Copyright © by Wenyao Liu"
+  url = "/privacy-policy/"
+  # url = "/contact/"
+  # url = "/docs/prologue/introduction/"
+  weight = 10

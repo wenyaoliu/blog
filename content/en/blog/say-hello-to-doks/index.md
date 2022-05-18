@@ -1,11 +1,11 @@
 ---
-title: "Say hello to Doks 👋"
-description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+title: "The blog in blog of Wenyao Liu 👋"
+description: "Welcome to this inner blog of the blog of Wenyao Liu. The whole blog is set up using Doks theme for Hugo."
+lead: "Welcome to this inner blog of the blog of Wenyao Liu. The whole blog is set up using Doks theme for Hugo"
 date: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 weight: 50
 images: ["say-hello-to-doks.png"]
-contributors: ["Henk Verlinde"]
+contributors: ["Wenyao Liu"]
 ---
