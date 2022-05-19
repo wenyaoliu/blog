@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/help/how-to-update.md",
-            "mode": "source"
+            "file": "learn/01_Processing/_index.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/help/how-to-update.md",
+                "file": "learn/01_Processing/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,14 +89,15 @@
   },
   "active": "37ced821b761381f",
   "lastOpenFiles": [
+    "learn/01_Processing/_index.md",
+    "learn/01_Processing/lorem/ipsum/index.md",
+    "learn/01_Processing/lorem/_index.md",
+    "learn/_index.md",
+    "learn/00_Preface/_index.md",
+    "learn/00_Preface/Introduction/index.md",
     "docs/help/how-to-update.md",
     "docs/help/troubleshooting.md",
     "docs/prologue/_index.md",
-    "docs/prologue/commands.md",
-    "docs/prologue/introduction.md",
-    "docs/prologue/quick-start.md",
-    "docs/help/_index.md",
-    "cycleofdata/processing/_index.md",
-    "contributors/wenyao-liu/_index.md"
+    "docs/prologue/commands.md"
   ]
 }

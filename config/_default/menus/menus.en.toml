@@ -44,11 +44,19 @@
 #   url = "/blog/"
 #   weight = 20
 
+# [[main]]
+#   name = "Docs"
+#   url = "/docs/prologue/introduction/"
+# # url = "/docs/1.0/prologue/introduction/"
+#   weight = 10
+
+
 [[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
+  name = "Learn"
+  url = "/learn/00_preface/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+  weight = 20
+
 
 [[main]]
   name = "Coding"
