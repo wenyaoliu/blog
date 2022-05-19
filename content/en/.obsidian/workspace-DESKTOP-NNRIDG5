@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "c82647ca2bd3fed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8125870d2b1ebfae",
+        "type": "leaf",
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Untitled Kanban.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4416eaff3d84121",
+    "type": "split",
+    "children": [
+      {
+        "id": "01016e30d013a3b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4df70a3584d42f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39a04c37e02aeec7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0979a3f82390c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "43cf980a705ccc92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b8fd9d74953060b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3028c8125325ad3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d32496625d0d12b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "f65c074b67365f01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "24cca2c0357c67a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8125870d2b1ebfae",
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "1_Review Network/Spaced Repetition.md",
+    "3_Civil Research/WeeklyReport_20220318.md",
+    "setting/Zotero WebDAV.md",
+    "3_Civil Research/WeeklyReport_20220311.md",
+    "3_Civil Research/WeeklyReport_20220128.md",
+    "3_Civil Research/WeeklyReport_20220204.md",
+    "Temp Anki/Flashcards.md",
+    "4_Data Analysis/C2 Week 1.md",
+    "4_Data Analysis/CV data.md"
+  ]
+}

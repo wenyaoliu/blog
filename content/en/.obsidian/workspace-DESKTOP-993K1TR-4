@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "c82647ca2bd3fed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4498ea999e19884e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1_Diary/2022-05-02_Monday.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4416eaff3d84121",
+    "type": "split",
+    "children": [
+      {
+        "id": "01016e30d013a3b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4df70a3584d42f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39a04c37e02aeec7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5
+  },
+  "right": {
+    "id": "d0979a3f82390c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "43cf980a705ccc92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b8fd9d74953060b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1_Diary/2022-05-02_Monday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3028c8125325ad3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d32496625d0d12b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1_Diary/2022-05-02_Monday.md"
+              }
+            }
+          },
+          {
+            "id": "f65c074b67365f01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "24cca2c0357c67a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "fec522ee118274ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8b5bb2645149357",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "4498ea999e19884e",
+  "lastOpenFiles": [
+    "1_Diary/2022-05-02_Monday.md",
+    "1_Diary/2022-05-01_Sunday.md",
+    "7_BibNotes/2020_邓敏_多模态地理大数据时空_KEY-MH9USQY3.md",
+    "7_BibNotes/Template.md",
+    "7_BibNotes/@wikle-2019-Spatiotemporal.md",
+    "7_BibNotes/Folder Path.md",
+    "7_BibNotes/Annotations-Notebook-2022-04-25.md",
+    "7_BibNotes/2022_Wang_CIVE 3633 Transporta_KEY-H3ITWA5A.md",
+    "1_Diary/2022-04-30_Saturday.md",
+    "7_BibNotes/markdown-note-2022-04-23.md"
+  ]
+}

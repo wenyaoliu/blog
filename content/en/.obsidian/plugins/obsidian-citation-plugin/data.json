@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Reading notes",
+  "literatureNoteContentTemplate": "---\nauthors: {{authorString}}\nyear: {{year}}\ntags: {{entry.data.fields.keywords}}\n---\n```ad-info\ntitle: 文献标题\n {{title}}\n```\nfile_path:\n=={{entry.data.fields.file}}==\n\n# zotero link\n[zotero link]({{zoteroSelectURI}})\n\n```ad-note\ntitle:Abstract\n{{abstract}}\n```\n\n",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "D:\\OneDrive - Oklahoma A and M System\\Documents\\Obsidian\\6_References\\My Zotero Bib.json"
+}

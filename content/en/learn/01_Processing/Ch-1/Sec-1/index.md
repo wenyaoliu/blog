@@ -10,7 +10,7 @@ type: docs
 menu:
   learn:
     parent: "SQL"
-weight: 100
+weight: 20
 toc: true
 contributors: ["Wenyao Liu"]
 programlang: ["R", "Python"]

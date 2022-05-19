@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "847ca885777cb2ca",
+    "id": "c82647ca2bd3fed1",
     "type": "split",
     "children": [
       {
-        "id": "37ced821b761381f",
+        "id": "4498ea999e19884e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "learn/01_Processing/_index.md",
+            "file": "learn/_index.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "75353c785a07b173",
+    "id": "b4416eaff3d84121",
     "type": "split",
     "children": [
       {
-        "id": "0418197bb99a4581",
+        "id": "01016e30d013a3b9",
         "type": "tabs",
         "children": [
           {
-            "id": "00cb91238aea0347",
+            "id": "c4df70a3584d42f5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "86a26f09486c870d",
+            "id": "39a04c37e02aeec7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 340
   },
   "right": {
-    "id": "1a77dd274aa061ad",
+    "id": "d0979a3f82390c27",
     "type": "split",
     "children": [
       {
-        "id": "982cefe3374ff500",
+        "id": "43cf980a705ccc92",
         "type": "tabs",
         "children": [
           {
-            "id": "bc67493434a84986",
+            "id": "7b8fd9d74953060b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learn/01_Processing/_index.md",
+                "file": "learn/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +79,62 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "3028c8125325ad3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d32496625d0d12b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learn/_index.md"
+              }
+            }
+          },
+          {
+            "id": "f65c074b67365f01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "24cca2c0357c67a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 362
   },
-  "active": "37ced821b761381f",
+  "active": "4498ea999e19884e",
   "lastOpenFiles": [
-    "learn/01_Processing/_index.md",
-    "learn/01_Processing/lorem/ipsum/index.md",
-    "learn/01_Processing/lorem/_index.md",
     "learn/_index.md",
-    "learn/00_Preface/_index.md",
-    "learn/00_Preface/Introduction/index.md",
-    "docs/help/how-to-update.md",
-    "docs/help/troubleshooting.md",
-    "docs/prologue/_index.md",
-    "docs/prologue/commands.md"
+    "learn/02_Analysis/_index.md",
+    "learn/02_Analysis/b_Panel_Data/_index.md",
+    "learn/02_Analysis/b_Panel_Data/Panel_Data_1/index.md",
+    "learn/02_Analysis/a_Regression/_index.md",
+    "learn/02_Analysis/a_Regression/ipsum/index.md",
+    "learn/01_Processing/_index.md",
+    "learn/01_Processing/Ch-1/_index.md",
+    "learn/01_Processing/Ch-1/Sec-1/index.md",
+    "learn/00_Preface/_index.md"
   ]
 }

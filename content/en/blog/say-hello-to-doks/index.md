@@ -11,3 +11,6 @@ contributors: ["Wenyao Liu"]
 cycleofdata: ["Processing"]
 programlang: ["R"]
 ---
+## Hello
+This is a blog of Wenyao Liu with one image
+![image1](say-hello-to-doks.png)

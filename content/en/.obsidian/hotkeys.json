@@ -1,1 +1,128 @@
-{}
+{
+  "obsidian-advanced-slides:open-advanced-slides-preview": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-advanced-slides:reload-advanced-slides-preview": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-mind-map:app:markmap-preview": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-spaced-repetition:srs-review-flashcards-in-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-title-serial-number-plugin:clear-title-serial-number-editor-command": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-title-serial-number-plugin:set-title-serial-number-editor-command": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [],
+  "obsidian-day-planner:app:link-day-planner-to-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-day-planner:app:unlink-day-planner-from-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-enhancing-mindmap:Toggle to markdown or mindmap": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-markmind:Toggle to markdown or mindmap": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "open-with-default-app:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ]
+}

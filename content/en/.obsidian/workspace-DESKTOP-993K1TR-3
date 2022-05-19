@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "c82647ca2bd3fed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "923d04fe271079ca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1_Diary/2022-04-18_Monday.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4416eaff3d84121",
+    "type": "split",
+    "children": [
+      {
+        "id": "01016e30d013a3b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4df70a3584d42f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39a04c37e02aeec7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389
+  },
+  "right": {
+    "id": "d0979a3f82390c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "43cf980a705ccc92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b8fd9d74953060b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1_Diary/2022-04-18_Monday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3028c8125325ad3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d32496625d0d12b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1_Diary/2022-04-18_Monday.md"
+              }
+            }
+          },
+          {
+            "id": "f65c074b67365f01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "24cca2c0357c67a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "fec522ee118274ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8b5bb2645149357",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "923d04fe271079ca",
+  "lastOpenFiles": [
+    "1_Diary/2022-04-18_Monday.md",
+    "4_Civil Research/2022-04 Spatial-temporal analysis/Untitled.md",
+    "1_Diary/2022-04-17_Sunday.md",
+    "99_效率优化工作流/0_setting/Zotero WebDAV.md",
+    "1_Diary/2022-04-15_Friday.md",
+    "99_效率优化工作流/3.1 Word 快捷键.md",
+    "99_效率优化工作流/2. Obsidian.md",
+    "1_Diary/2022-04-10_Sunday.md",
+    "99_效率优化工作流/0_setting/PicGo Token.md",
+    "99_效率优化工作流/0_setting/Typora.md"
+  ]
+}

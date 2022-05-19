@@ -1,0 +1,16 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": true,
+  "notesToDates": [
+    {
+      "notePath": "3_Civil Research/Weekly Report/WeeklyReport_20220408.md",
+      "date": "Thu Apr 07 2022"
+    }
+  ],
+  "completePastItems": true,
+  "circularProgress": true,
+  "nowAndNextInStatusBar": true,
+  "showTaskNotification": true,
+  "timelineZoomLevel": 1
+}

@@ -1,0 +1,125 @@
+{
+  "choices": [],
+  "macros": [
+    {
+      "name": "Zotero-pdf-anno",
+      "id": "2ee1f0b6-642e-4296-944a-aa1994374217",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "353a5629-01b6-4a57-aa9e-54fc65a2f552",
+          "choice": {
+            "id": "dbe1f94d-e421-44d8-9ef5-182852789fb9",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "fbd4ddd0-e29d-46f4-814b-491bb887d68d",
+          "time": 300
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "cdde5b7b-5fcc-4d4f-9407-5d67e5bd2e91",
+          "choice": {
+            "id": "7bcf4b97-2f6c-49e0-9aa5-2d4781937621",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "44937ec6-c6f4-4982-a884-da6e222c78c1",
+          "choice": {
+            "id": "60f5bd84-9efa-43bf-8eef-c65404fa8079",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Copy",
+          "type": "EditorCommand",
+          "id": "e6ec38e5-e551-485c-83df-d0e6397271a2",
+          "editorCommandType": "Copy"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

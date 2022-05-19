@@ -10,6 +10,6 @@ type: docs
 menu:
   learn:
     parent: "Preface"
-weight: 100
+weight: 10
 toc: true
 ---

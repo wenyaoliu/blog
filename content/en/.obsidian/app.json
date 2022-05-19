@@ -1,4 +1,12 @@
 {
+  "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "readableLineLength": true,
+  "fileSortOrder": "byCreatedTimeReverse",
+  "alwaysUpdateLinks": true
 }

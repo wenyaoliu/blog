@@ -1,0 +1,6 @@
+{
+  "autorun": true,
+  "folder": "1_Diary",
+  "template": "10_Templates/Diary_Template",
+  "format": "YYYY-MM-DD_dddd"
+}

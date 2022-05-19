@@ -1,0 +1,258 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Basic": "((?:[^\\n][\\n]?)+) #flashcard ?\\n*((?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))+)",
+      "Basic (and reversed card)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (type in the answer)": "",
+      "Cloze": "((?:.+\\n)*(?:.*==.*)(?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))*)",
+      "ODH": "",
+      "English Word": "",
+      "Image Occlusion Enhanced": "",
+      "Obsidian-basic": "",
+      "Obsidian-basic-code": "",
+      "Obsidian-basic-reversed": "",
+      "Obsidian-basic-reversed-code": "",
+      "Obsidian-cloze": "",
+      "Obsidian-cloze-code": "",
+      "Obsidian-spaced": "",
+      "Obsidian-spaced-code": "",
+      "知识点-Basic (King咔)": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "Basic": "Front",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (type in the answer)": "Front",
+      "Cloze": "Text",
+      "ODH": "expression"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "0_Templates": "",
+      "1_Review Network": "",
+      "2_Mind Map": "",
+      "3_Civil Research": "",
+      "4_Data Analysis": "",
+      "5_References": "",
+      "6_ReferBibTex": "",
+      "7_Other Studying": "",
+      "8_效率优化工作流": "",
+      "9_Academic Writing": "",
+      "assets": "",
+      "export": "",
+      "setting": "",
+      "1_Review Network/Review": "",
+      "export/WeeklyReport_20220107": "",
+      "export/WeeklyReport_20220107/css": "",
+      "export/WeeklyReport_20220107/dist": "",
+      "export/WeeklyReport_20220107/plugin": "",
+      "export/WeeklyReport_20220107/dist/fontawesome": "",
+      "export/WeeklyReport_20220107/dist/theme": "",
+      "export/WeeklyReport_20220107/plugin/chalkboard": "",
+      "export/WeeklyReport_20220107/plugin/customcontrols": "",
+      "export/WeeklyReport_20220107/plugin/highlight": "",
+      "export/WeeklyReport_20220107/plugin/markdown": "",
+      "export/WeeklyReport_20220107/plugin/math": "",
+      "export/WeeklyReport_20220107/plugin/menu": "",
+      "export/WeeklyReport_20220107/plugin/mermaid": "",
+      "export/WeeklyReport_20220107/plugin/notes": "",
+      "export/WeeklyReport_20220107/plugin/search": "",
+      "export/WeeklyReport_20220107/plugin/zoom": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts": "",
+      "export/WeeklyReport_20220107/plugin/chalkboard/img": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/lato": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/source-sans-pro": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/league-gothic": "",
+      "Temp Anki": ""
+    },
+    "FOLDER_TAGS": {
+      "0_Templates": "",
+      "1_Review Network": "",
+      "2_Mind Map": "",
+      "3_Civil Research": "",
+      "4_Data Analysis": "",
+      "5_References": "",
+      "6_ReferBibTex": "",
+      "7_Other Studying": "",
+      "8_效率优化工作流": "",
+      "9_Academic Writing": "",
+      "assets": "",
+      "export": "",
+      "setting": "",
+      "1_Review Network/Review": "",
+      "export/WeeklyReport_20220107": "",
+      "export/WeeklyReport_20220107/css": "",
+      "export/WeeklyReport_20220107/dist": "",
+      "export/WeeklyReport_20220107/plugin": "",
+      "export/WeeklyReport_20220107/dist/fontawesome": "",
+      "export/WeeklyReport_20220107/dist/theme": "",
+      "export/WeeklyReport_20220107/plugin/chalkboard": "",
+      "export/WeeklyReport_20220107/plugin/customcontrols": "",
+      "export/WeeklyReport_20220107/plugin/highlight": "",
+      "export/WeeklyReport_20220107/plugin/markdown": "",
+      "export/WeeklyReport_20220107/plugin/math": "",
+      "export/WeeklyReport_20220107/plugin/menu": "",
+      "export/WeeklyReport_20220107/plugin/mermaid": "",
+      "export/WeeklyReport_20220107/plugin/notes": "",
+      "export/WeeklyReport_20220107/plugin/search": "",
+      "export/WeeklyReport_20220107/plugin/zoom": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts": "",
+      "export/WeeklyReport_20220107/plugin/chalkboard/img": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/lato": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/source-sans-pro": "",
+      "export/WeeklyReport_20220107/dist/theme/fonts/league-gothic": "",
+      "Temp Anki": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "A_Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": true,
+      "CurlyCloze": true,
+      "CurlyCloze - Highlights to Clozes": true,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    }
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "setting/Zotero WebDAV.md": "1b015610bbe3caede8055cf652513194",
+    "setting/Typora.md": "fadd5f540edd88d2ff62097e166c7ba5",
+    "setting/Anki.md": "0df1b1e177de308579d01dab3ef017ef",
+    "export/WeeklyReport_20220107/plugin/menu/README.md": "f8bcbc0892becee8b39f3c0c7ffe264c",
+    "export/WeeklyReport_20220107/plugin/menu/CONTRIBUTING.md": "b24bec00dff838d727bea52009de1f93",
+    "export/WeeklyReport_20220107/plugin/customcontrols/README.md": "e86915a9d210e9d6741abc77fce9bd62",
+    "export/WeeklyReport_20220107/plugin/chalkboard/README.md": "74ae042f6d0ad5d5013b9acf26c2edc9",
+    "Chrome Clippings.md": "54c4edd81af6721593aa823844342383",
+    "9_Academic Writing/Phasebank.md": "cdcb3e567838de61efd36b8ee97a22a9",
+    "9_Academic Writing/Phasebank 1.md": "45d84efcb54051e973151ad602f91e2b",
+    "9_Academic Writing/Pavement Evaluation.md": "80f0c3e1b6f72e04c3a85925d7915365",
+    "8_效率优化工作流/3.1 Word 快捷键.md": "74a129e8b742bf83e833c27f81703b42",
+    "8_效率优化工作流/1. 介绍.md": "3a998830e3e99533135030dc079bd153",
+    "7_Other Studying/中医基础.md": "e4ead3de751dd7e3ca4e08a97b9d9519",
+    "5_References/Othmane-2013-ExtendedSafety.md": "dba46177bdca0e1f456e3ac8002d088a",
+    "5_References/Mdnotes Default Template.md": "4e44b54593d915626d7953a30ffbc199",
+    "5_References/Ai-2020-EstablishmentNewApproach.md": "fb1b066da16d7b6f603be3d371c14146",
+    "4_Data Analysis/C2 Week 1.md": "e96e05951e56b3116a85873d89759b8e",
+    "4_Data Analysis/C1 Week 5.md": "89c532e40a3e7739fd22edf6cb82e70e",
+    "4_Data Analysis/C1 Week 4.md": "82ad8c39b557d17b6405f36e901dc70b",
+    "3_Civil Research/20220113_Subtask5-3.md": "d246e3f57fadbe977398e0da177c59ba",
+    "3_Civil Research/Writing Note_20220125.md": "6228e0144793a9df78d5a25382ff27bc",
+    "3_Civil Research/WeeklyReport_20220204.md": "3f062e6a5a8f1263759a7f3abc28cee4",
+    "3_Civil Research/WeeklyReport_20220128.md": "08749079b6ada1a27a7ff9e647fa0c1d",
+    "3_Civil Research/WeeklyReport_20220113.md": "bc48529709528cd91e01035bfa73cb1b",
+    "3_Civil Research/WeeklyReport_20220107.md": "2b46d723539a526f29b02e12564e2bf7",
+    "3_Civil Research/ObFlashcard.md": "5b0c86d860fa044ca54678fc8e4d4bfb",
+    "3_Civil Research/ObAnki.md": "63fa7cd4e95f38e5d0aa9410f9f68589",
+    "3_Civil Research/HSM-Webinar_1.md": "22a675373984faa8d9b75785d4d56a56",
+    "3_Civil Research/20220105_RailwayProjectProposalRFP.md": "28f1308deb3657c2f2a4b48eb4cf4e2a",
+    "2_Mind Map/Untitled.md": "599db9c96ed502bebc5be93a6515d57d",
+    "2_Mind Map/Learn R for Applied Statistics-annotate.md": "d7ce8a98a9adbdda01ea08ece5707502",
+    "1_Review Network/Spaced Repetition.md": "48ad119b6648925edd89fba4a7648236",
+    "1_Review Network/Spaced Repetition Example.md": "f6444a0c2eeb058b54cd4974f1948785",
+    "1_Review Network/Review/vehicle vibration.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "1_Review Network/Review/pavement condition evaluation.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "1_Review Network/Review/OBD.md": "e5eb9a3c2cb01012c06a5ec3330c1da6",
+    "1_Review Network/Cite.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "0_Templates/WeeklyReport_Template.md": "d36beeb01a21d36f0f612b85783ce78e",
+    "--NCHRP1799a - RFP Key Points.md": "a39db8c7e601151d064c024132b29261",
+    "Temp Anki/ObAnki.md": "663836b689175317ac5706204bc867f9"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ],
+    "English Word": [
+      "Word",
+      "Definition"
+    ],
+    "Image Occlusion Enhanced": [
+      "ID (hidden)",
+      "Header",
+      "Image",
+      "Question Mask",
+      "Footer",
+      "Remarks",
+      "Sources",
+      "Extra 1",
+      "Extra 2",
+      "Answer Mask",
+      "Original Mask"
+    ],
+    "Obsidian-basic": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-basic-code": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-basic-reversed": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-basic-reversed-code": [
+      "Front",
+      "Back"
+    ],
+    "Obsidian-cloze": [
+      "Text",
+      "Extra"
+    ],
+    "Obsidian-cloze-code": [
+      "Text",
+      "Extra"
+    ],
+    "Obsidian-spaced": [
+      "Prompt"
+    ],
+    "Obsidian-spaced-code": [
+      "Prompt"
+    ],
+    "ODH": [
+      "expression",
+      "reading",
+      "extrainfo",
+      "glossary",
+      "sentence",
+      "url",
+      "audio"
+    ],
+    "知识点-Basic (King咔)": [
+      "问题",
+      "答案",
+      "笔记",
+      "相关知识"
+    ]
+  }
+}

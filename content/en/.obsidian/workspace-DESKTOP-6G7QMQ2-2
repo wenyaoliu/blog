@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "c82647ca2bd3fed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "255922cdec337fbf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0_Diary/2022-04-06_Wednesday.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4416eaff3d84121",
+    "type": "split",
+    "children": [
+      {
+        "id": "01016e30d013a3b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4df70a3584d42f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39a04c37e02aeec7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0979a3f82390c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "43cf980a705ccc92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b8fd9d74953060b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0_Diary/2022-04-06_Wednesday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3028c8125325ad3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d32496625d0d12b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0_Diary/2022-04-06_Wednesday.md"
+              }
+            }
+          },
+          {
+            "id": "f65c074b67365f01",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "24cca2c0357c67a7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "eae2ea7c2fa5e668",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 386
+  },
+  "active": "255922cdec337fbf",
+  "lastOpenFiles": [
+    "0_Diary/2022-04-06_Wednesday.md",
+    "0_Templates/Diary_Template.md",
+    "0_Templates/WeeklyReport_Template.md",
+    "Day Planners/Day Planner-20220406.md",
+    "0_Diary/2022-04-06.md",
+    "2022-04-06.md",
+    "2_Mind Map/Untitled.md",
+    "2_Mind Map/Learn R for Applied Statistics-annotate.md",
+    "2_Mind Map/Learn R for Applied Statistics.pdf",
+    "3_Civil Research/Weekly Report/WeeklyReport_20220401.md"
+  ]
+}

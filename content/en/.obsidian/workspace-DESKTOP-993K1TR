@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "c82647ca2bd3fed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0461100106f8b87e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3_Civil Research/20220105 Railway Project Proposal.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "7c1e85c8bd03445e",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b7b6bedb5e169a2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "93fdff2f4daea62b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4157ca681ecaa8ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d85a13afac24b49f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 451
+  },
+  "right": {
+    "id": "e137d20eb331c04c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ad6dcb408861cc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5949f7a58828f2ab",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "05d1d481d2f251e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3_Civil Research/20220105 Railway Project Proposal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0461100106f8b87e",
+  "lastOpenFiles": [
+    "3_Civil Research/20220105 Railway Project Proposal.md",
+    "5_References/Othmane-2013-ExtendedSafety.md",
+    "5_References/Mdnotes Default Template.md",
+    "2_Mind Map/Learn R for Applied Statistics-annotate.md",
+    "2_Mind Map/Untitled.md",
+    "04_Data Science/Week 4.md",
+    "5_References/Lord-2021-HighwaySafetyAnalytics-zotero.md",
+    "5_References/Lord-2021-HighwaySafetya.md",
+    "5_References/Lord-2021-HighwaySafetya - 0. Preface.md",
+    "5_References/Lord-2021-HighwaySafetya - 1. Introduction.md"
+  ]
+}
