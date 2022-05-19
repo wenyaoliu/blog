@@ -93,9 +93,9 @@ rel  = "sitemap"
     # source = "node_modules/@hyas/doks/layouts"
     source = "doks_modified/layouts"
     target = "layouts"
-  [[module.mounts]]
-    source = "node_modules/@hyas/doks/static"
-    target = "static"
+  # [[module.mounts]]
+  #   source = "node_modules/@hyas/doks/static"
+  #   target = "static"
   [[module.mounts]]
     source = "node_modules/flexsearch"
     target = "assets/js/vendor/flexsearch"

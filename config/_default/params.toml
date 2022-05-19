@@ -2,7 +2,7 @@
 
 ## Homepage
 title = "Leo Code"
-titleSeparator = "-"
+titleSeparator = "|"
 titleAddition = "Wenyao Liu"
 description = "Wenyao Leo Liu is a fan of data science and coding. This blog records his learning progresses"
 
@@ -10,7 +10,7 @@ description = "Wenyao Leo Liu is a fan of data science and coding. This blog rec
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["LeoCode-logo.jpg"]
 ogLocale = "en_US"
 domainTLD = "wenyaoliu.netlify.app"
 titleHome = "Wenyao Liu"
@@ -28,10 +28,10 @@ schemaAuthorTwitter = "https://twitter.com/wenyaoliu"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/wenyaoliu/"
 schemaAuthorGitHub = "https://github.com/wenyaoleoliu"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "LeoCode-logo.jpg"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "LeoCode-logo.jpg"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/WenyaoL"
@@ -70,7 +70,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/wenyaoleoliu.github.io"
+docsRepo = "https://github.com/wenyaoleoliu.github.io/blog"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false

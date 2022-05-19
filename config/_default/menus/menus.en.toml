@@ -97,11 +97,11 @@
   url = "/cycleofdata/sharing/"
   parent = "Cycle"
 
-[[main]]
-  name = "About"
-  weight = 100
-  identifier = "About"
-  url = "https://www.wenyaoliu.com"
+# [[main]]
+#   name = "About"
+#   weight = 100
+#   identifier = "About"
+#   url = "https://www.wenyaoliu.com"
 
 [[social]]
   name = "GitHub"
