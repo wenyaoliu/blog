@@ -7,5 +7,4 @@ lastmod: {{ .Date }}
 draft: false
 images: []
 type: docs
-
 ---

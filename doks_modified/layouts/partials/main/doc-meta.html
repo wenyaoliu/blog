@@ -6,17 +6,16 @@
         {{ if gt $index 0 }}
             {{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }}
     <a class="stretched-link position-relative" href="{{"/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
-    &nbsp;&hyphen;&nbsp;
+    <!-- &nbsp;&hyphen;&nbsp; -->
     <!-- <strong>{{ .ReadingTime -}}&nbsp;min read</strong>  -->
         <!-- &nbsp; -->
-        {{ if .Params.programlang -}} {{ range $index, $programlang := .Params.programlang }}
+        {{ if .Params.cycleofdata -}} on Data {{ range $index, $cycleofdata := .Params.cycleofdata }}
+        {{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }} 
+        <a class="stretched-link position-relative" href="{{"/cycleofdata/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
+        <!-- &nbsp; -->
+        {{ if .Params.programlang -}} using {{ range $index, $programlang := .Params.programlang }}
         {{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }} 
         <a class="stretched-link position-relative" href="{{"/programlang/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
-       
-        &nbsp;
-        {{ if .Params.cycleofdata -}} {{ range $index, $cycleofdata := .Params.cycleofdata }}
-        {{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }}
-        <a class="stretched-link position-relative" href="{{"/cycleofdata/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}
     
     </small>
 <p>

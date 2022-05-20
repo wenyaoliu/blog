@@ -72,6 +72,10 @@ rel  = "sitemap"
 [minify.tdewolff.html]
   keepWhitespace = false
 
+## Specify Static Folder for local image reference
+# Not working....
+# staticDir = ['static', 'assets']
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -111,6 +115,7 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "static"
     target = "static"
+# For multiple language support
 #  [[module.mounts]]
 #    source = "content"
 #    target = "content"
