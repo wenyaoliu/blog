@@ -10,7 +10,7 @@ type: docs
 menu:
   docs:
     parent: "b_Panel_Data"
-weight: 120
+weight: 50
 toc: true
 contributors: ["Wenyao Liu"]
 programlang: ["R"]

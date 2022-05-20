@@ -7,12 +7,8 @@
         "id": "4498ea999e19884e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "learn/_index.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learn/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "learn/_index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,15 +119,15 @@
   },
   "active": "4498ea999e19884e",
   "lastOpenFiles": [
+    "learn/02_Analysis/commands.md",
+    "learn/02_Analysis/b_Panel_Data/Panel_Data_1/Sub-Sub-Sub.md",
+    "learn/02_Analysis/add_images.md",
+    "learn/02_Analysis/Panel-data-shot.png",
     "learn/_index.md",
     "learn/02_Analysis/_index.md",
     "learn/02_Analysis/b_Panel_Data/_index.md",
     "learn/02_Analysis/b_Panel_Data/Panel_Data_1/index.md",
     "learn/02_Analysis/a_Regression/_index.md",
-    "learn/02_Analysis/a_Regression/ipsum/index.md",
-    "learn/01_Processing/_index.md",
-    "learn/01_Processing/Ch-1/_index.md",
-    "learn/01_Processing/Ch-1/Sec-1/index.md",
-    "learn/00_Preface/_index.md"
+    "learn/02_Analysis/a_Regression/ipsum/index.md"
   ]
 }

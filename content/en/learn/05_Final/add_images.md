@@ -8,29 +8,13 @@ draft: false
 images: []
 type: docs
 menu: 
-  docs:
-    parent: "02_analysis"
+  learn:
+    parent: "05_Final"
 weight: 620
 toc: true
 contributors: ["Wenyao Liu"]
 programlang: 
 ---
-
-## Problems updating npm packages
-
-Delete the `./node_modules` folder, and run again:
-
-```bash
-npm install
-```
-
-## Problems with cache
-
-Delete the temporary directories:
-
-```bash
-npm run clean
-```
 
 When writing docs under Doks theme the images were strictly organized under [page bundle](https://gohugo.io/content-management/page-bundles/).
 
