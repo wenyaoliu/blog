@@ -1,0 +1,421 @@
+---
+title: Panel Data Analysis Example
+author: Wenyao Liu
+date: '2022-05-24'
+slug: panel-data-analysis-example
+categories: []
+tags: []
+description: ''
+lastmod: '2022-05-24T09:40:23-05:00'
+images: []
+contributors:
+  - Wenyao Liu
+programlang:
+  - R
+cycleofdata:
+  - Analysis
+type: docs
+menu:
+  learn:
+    parent: "Pannel Data"
+weight: 42
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(dplyr)
+library(plm)
+library(lfe)
+library(lmtest)
+library(car)
+library(geepack)
+```
+
+# Import data {.tabset .tabset-fade .tabset-pills}
+
+## Load data
+
+```{r}
+load("df.Rdata")
+```
+
+```{r}
+df_panel <- df %>% 
+  select(sitedir, date, avc_speed_weighted, avc_volume, radar_volume, radar_speed_weighted, inrix_speed_mean, here_speed_mean)
+
+colnames(df_panel) <- c("sitedir", "date", "avc_speed",
+                        "avc_volume", "radar_volume", "radar_speed", "inrix_speed", "here_speed")
+head(df_panel)
+```
+
+### Check balance or not
+
+Obviously unbalanced data as there are so many zeros.
+
+```{r}
+df_panel %>%
+  select(sitedir, date) %>%
+  table() %>% 
+  as.data.frame.matrix() 
+```
+
+It can be also checked using this command:
+
+```{r}
+df_panel %>%
+  is.pbalanced()
+```
+
+### Transfer to balanced data
+
+Using `"shared.times"` keeps all available firms in the dataset but drops all time periods where at least one firm has no data. Only the **years 1978-1982** remain since they are **shared** by all firms.
+
+```{r}
+df_panel_balanced <- make.pbalanced(df_panel, balance.type = "shared.times")
+
+df_panel_balanced %>%
+  group_by(sitedir) %>%
+  slice(1)
+```
+
+```{r}
+df_panel_balanced %>%
+  is.pbalanced()
+```
+
+### Time dimension gaps
+
+```{r}
+df_panel_balanced %>% 
+  is.pconsecutive()
+```
+
+The results show no gaps in the time periods for any firm.
+
+```{r}
+df_panel_balanced
+```
+
+# Visualization {.tabset .tabset-fade .tabset-pills}
+
+### Naive Lineplot
+
+```{r}
+ggplot(data = df_panel_balanced, aes(x = date, y = avc_speed)) +
+  geom_line() +
+  labs(x = "Date",  y = "AVC Speed") +
+  theme(legend.position = "none")
+```
+
+### Separated Lineplot
+
+```{r}
+ggplot(data = df_panel_balanced, aes(x = date, y = avc_speed)) +
+  geom_line(aes(colour = as.factor(sitedir))) +
+  geom_smooth(method = "lm", se = F, lty = "dashed") +
+  labs(x = "Date",  y = "AVC Speed") +
+  theme(legend.position = "none")
+```
+
+### Entity Heterogeneity
+
+```{r}
+is.numeric(df_panel_balanced$avc_speed)
+```
+
+```{r }
+df_panel_balanced %>%
+  group_by(sitedir) %>%
+  summarise(avc_speed_mean = mean(as.numeric(avc_speed))) %>% 
+    # summarise(across(c(avc_speed), 
+    #                list( mean = ~mean(., na.rm = TRUE) ), .groups = 'drop')) %>%
+  left_join(df_panel_balanced) %>% 
+  ggplot(data = .,
+         aes(x = sitedir, y = avc_speed)) + 
+  geom_point() +
+  geom_line(aes(x = sitedir, y = avc_speed_mean, group = 1), col = "blue", lwd = 1) +
+  labs(x = "SiteDir", y = "AVC Speed")
+```
+
+### Time Heterogeneity
+
+```{r}
+df_panel_balanced %>%
+  group_by(date) %>%
+  summarise(avc_speed_mean = mean(avc_speed)) %>%
+  left_join(df_panel_balanced) %>%
+  ggplot(data = ., 
+         aes(x = date, y = avc_speed)) +
+  geom_point() +
+  geom_line(aes(x = date, y = avc_speed_mean), col = "blue") +
+  scale_x_continuous(labels = as.character(df_panel_balanced$date), 
+                     breaks = df_panel_balanced$date) +
+  labs(x = "Date", y = "AVC Speed") +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+# Estimation: 
+
+## Pooled Cross Sections {.tabset .tabset-fade .tabset-pills}
+
+### Pooled OLS via Lm()
+
+```{r}
+pooled_ols_lm <- lm(avc_speed ~ radar_speed, data = df_panel_balanced )
+
+summary(pooled_ols_lm)
+```
+
+### Pooled OLS via plm()
+
+```{r}
+pooled_ols_plm <- plm(avc_speed ~ radar_speed, data = df_panel_balanced, 
+                      index = c("sitedir", "date"), 
+                      effect = "individual", model = "pooling")
+
+summary(pooled_ols_plm)
+```
+
+### Scatterplot
+
+```{r}
+length(unique(df_panel_balanced$sitedir))
+```
+
+```{r}
+df_panel_balanced
+```
+
+```{r}
+ggplot(data = df_panel_balanced,
+       aes(x = radar_speed, y = avc_speed)) +
+  geom_point(aes(color = factor(sitedir))) +
+  geom_smooth(method = "lm", se = F) +
+  scale_shape_manual(values = 1:102) +
+  labs(x = "Radar speed",
+       y = "AVC speed",
+       shape = "sitedir")+
+  theme(legend.position = "none")
+```
+
+## Estimation: Fixed Effects Model
+
+### Least Squares Dummy Variable Estimation
+
+#### FE using lm()
+
+```{r}
+fe_model_lm <- lm(avc_speed ~ radar_speed + factor(sitedir), data = df_panel_balanced)
+
+summary(fe_model_lm)
+```
+
+#### Excluding the intercept
+
+```{r}
+fe_model_lm_nocons <- lm(avc_speed ~ radar_speed + factor(sitedir) -1, data = df_panel_balanced)
+
+summary(fe_model_lm_nocons)
+```
+
+#### Scatterplot
+
+```{r}
+ggplot(data = broom::augment(fe_model_lm),
+       aes(x = radar_speed, y = .fitted)) +
+  geom_point(aes(color = `factor(sitedir)`)) +
+  geom_line(aes(color = `factor(sitedir)`)) +
+  geom_line(data=broom::augment(pooled_ols_lm), 
+            aes(x = radar_speed, y =.fitted), 
+            color = "blue", lty="dashed", size = 1) +
+  labs(x = "Radar Speed", y = "Fitted Values (AVC Speed ~ Radar Speed)",
+       color = "Firm") + 
+  theme(legend.position = "none")
+```
+
+### Within-groups Estimator
+
+#### FE using plm()
+
+```{r}
+fe_model_plm <- plm(avc_speed ~ radar_speed, data = df_panel_balanced, 
+                    index = c("sitedir", "date"), 
+                    effect = "individual", model = "within")
+summary(fe_model_plm)
+```
+
+#### FE using felm()
+
+```{r}
+fe_model_felm <- lfe::felm(avc_speed ~ radar_speed | factor(sitedir), 
+                           data = df_panel_balanced)
+
+summary(fe_model_felm)
+```
+
+#### Testing for FE
+
+```{r}
+# Within estimator vs. Pooled OLS
+pFtest(fe_model_plm, pooled_ols_plm)
+```
+
+```{r}
+# Joint significane test with LSDV approach
+car::linearHypothesis(fe_model_lm,
+                      hypothesis.matrix = matchCoefs(fe_model_lm, "sitedir"))
+```
+
+### First-difference Estimator
+
+#### More than two time periods
+
+```{r}
+fe_model_fd<- plm(avc_speed ~ radar_speed -1, data = df_panel_balanced,
+                  index = c("sitedir", "date"), 
+                  effect = "individual", model = "fd")
+
+summary(fe_model_fd)
+```
+
+#### Two time periods
+
+```{r}
+# Within estimation (two periods)
+# fe_model_plm_check <- plm(avc_speed ~ radar_speed, 
+#                           data = df_panel_balanced, 
+#                           subset = date %in% c(2021-12-22, 2021-12-24), 
+#                           index = c("sitedir", "date"), 
+#                           effect = "individual", model = "within")
+# 
+# lmtest::coeftest(fe_model_plm_check)
+```
+
+## Estimation: Random Effects Model
+
+### RE via plm()
+
+```{r}
+re_model_plm <- plm(avc_speed ~ radar_speed, data = df_panel_balanced, 
+                    index = c("sitedir", "date"), 
+                    effect = "individual", model = "random")
+
+summary(re_model_plm)
+```
+
+### Generalized estimating equations(Decision tree)
+
+Not working good \~\~
+
+```{r}
+# gee_model1 <- geeglm(avc_speed ~ radar_speed, id = sitedir, waves = date, 
+#                      data = df_panel_balanced, family = gaussian, corstr = "exchangeable")
+# summary(gee_model1)
+```
+
+```{r}
+# gee_model2 <- geeglm(avc_speed ~ radar_speed, id = sitedir, waves = date, 
+#                      data = df_panel_balanced, family = gaussian, corstr = "ar1")
+# summary(gee_model2)
+```
+
+```{r}
+# gee_model3 <- geeglm(avc_speed ~ radar_speed, id = sitedir, waves = date, 
+#                      data = df_panel_balanced, family = gaussian, corstr = "independence")
+# summary(gee_model3)
+```
+
+## Estimation: Including the time dimension
+
+### Pooled OLS via lm()/plm()
+
+```{r}
+pooled_ols_time_lm <- lm(avc_speed ~ radar_speed + factor(date), data = df_panel_balanced)
+
+coef(pooled_ols_time_lm)[2]
+```
+
+```{r}
+pooled_ols_time_plm <- plm(avc_speed ~ radar_speed + factor(date), data = df_panel_balanced, 
+                           index = c("sitedir", "date"), effect = "individual",
+                           model = "pooling")
+
+coef(pooled_ols_time_plm)[2]
+
+```
+
+### FE via lm()/plm()
+
+```{r}
+fe_time_lm <- lm(avc_speed ~ radar_speed + factor(sitedir) + factor(date), 
+                 data = df_panel_balanced)
+
+coef(fe_time_lm)[2]
+```
+
+```{r}
+fe_time_plm <- plm(avc_speed ~ radar_speed, data = df_panel_balanced, 
+                   index = c("sitedir", "date"), effect = "twoways",
+                   model = "within")
+
+coef(fe_time_plm)[1]
+```
+
+### FE via felm()
+
+```{r}
+fe_time_felm <- lfe::felm(avc_speed ~ radar_speed | factor(sitedir) + factor(date), 
+                          data = df_panel_balanced )
+
+coef(fe_time_felm)[1]
+
+```
+
+### Testing for Time FE
+
+```{r}
+# Within model
+pFtest(fe_time_plm, fe_model_plm) 
+```
+
+```{r}
+# LSDV model
+car::linearHypothesis(fe_time_lm, matchCoefs(fe_time_lm, "date")) 
+```
+
+## Tests for Panel Data Models
+
+### RE of FE?
+
+```{r}
+phtest(fe_model_plm, re_model_plm)
+```
+
+The null hypothesis cannot be rejected here, hence we should use a RE model.
+
+### Pooled OLS or FE?
+
+```{r}
+plmtest(pooled_ols_plm, effect = "individual", type = c("bp"))
+```
+
+The test shows that there are significant differences across sitedir . Running a pooled OLS regression is thus not appropriate and the RE model is the better choice.
+
+### Heteroskedasticity
+
+```{r}
+lmtest::bptest(avc_speed ~ radar_speed + factor(sitedir), 
+               studentize = F, data = df_panel_balanced)
+```
+
+There is strong evidence for the presense of heteroskedasticity. Hence, the use of robust standard errors is advised.
+
+### Serial Correlation
+
+```{r}
+pbgtest(fe_model_plm)
+```
+
+There is strong evidence that the residuals are serially correlated.
