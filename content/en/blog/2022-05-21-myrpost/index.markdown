@@ -1,0 +1,48 @@
+---
+title: MyRpost
+author: ''
+date: '2022-05-21'
+slug: myrpost
+categories: []
+tags: []
+description: ''
+lead: ''
+lastmod: '2022-05-21T22:33:59-05:00'
+weight: 50
+images:
+  - 2022-05-21-myrpost.jpg
+contributors:
+  - Wenyao Liu
+programlang:
+  - R
+  - Python
+cycleofdata:
+  - Processing
+  - Analysis
+  - Sharing
+---
+
+# Heading 1
+
+## Heading 2
+
+Some text here
+
+
+```rs
+library(ggplot2)
+
+x = seq(-1, 1, .01)
+y = sin(x^3)/(1 + x^6)
+
+ggplot(mapping = aes(x = x, 
+                     y = y)) +
+geom_line() +
+geom_ribbon(aes(ymin = 0, 
+                ymax = y), 
+            fill = "pink", 
+            alpha = 0.5) +
+theme_void() 
+```
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" />

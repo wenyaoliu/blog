@@ -17,7 +17,7 @@ cycleofdata: ["Processing", "Analysis", "Sharing"]
 programlang: ["R", "Python"]
 ---
 
-## create
+## Create
 
 Create new content for your site:
 
@@ -47,7 +47,7 @@ The command for creating docs sections under existing "learn" folder
 npm run create -- --kind docs learn/03_Sharing
 ```
 
-## start
+## Start
 
 Start local development server:
 
@@ -55,7 +55,7 @@ Start local development server:
 npm run start
 ```
 
-## build
+## Build
 
 Build production website:
 
